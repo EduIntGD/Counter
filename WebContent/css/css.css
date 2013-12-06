@@ -1,0 +1,96 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	/* Minimo ancho aceptable */
+	min-width: 400px; 
+}
+	/* HEADER */
+	/* ====== */
+	#iHeader
+	{
+		width: 100%;
+	}
+		#iHeader_LogosEmpresa
+		{
+			height: 50px;
+			width: 100%;
+			background-image: url(../images/fondos/publicos/Header_LogosEmpresa.png);
+		}	
+			#iHeader_LogosEmpresa_LogoCounter
+			{
+				height: 50px;
+				width: 208px;
+				background-image: url(../images/logos/publicos/Counter.png);
+				float: left;
+			}
+			#iHeader_LogosEmpresa_LogoMyRTools
+			{
+				height: 50px;
+				width: 175px;
+				background-image: url(../images/logos/publicos/MyRTools.png);
+				float: right;
+			}
+		#iHeader_SubSombraLogosEmpresa
+		{
+			height: 4px;
+			width: 100%;
+			background-image: url(../images/fondos/publicos/Header_SubSombraLogosEmpresa.png);
+		}
+		#iHeader_MisDatos
+		{
+			height: 64px;
+			width: 100%;
+			background-image: url(../images/fondos/publicos/Header_MisDatos.png);
+		}
+			#iHeader_MisDatos_EmpresaLogo
+			{
+				
+			}
+			#iHeader_MisDatos_EmpresaDatos
+			{
+				
+			}
+			#iHeader_MisDatos_UsuarioDatos
+			{
+				
+			}
+		#iHeader_BotonesPrincipales
+		{
+			text-align: right;
+		}
+			.cHeader_BotonesPr
+			{
+				display: inline-block;
+				background-color: #33A5E5;
+				color: #FFF;
+				font-family: Arial;
+				font-size: 16px;
+				padding: 10px 20px;
+				cursor: pointer;
+				border-radius: 4px 4px 0px 0px;
+			} .cHeader_BotonesPr:hover, .cHeader_BotonesPr[selected]
+			{
+				background-color: #55C7F7;
+			}
+		#iHeader_BotonesSecundarios
+		{
+			text-align: right;
+			background-color: #55C7F7;
+			padding-top: 10px;
+		}
+			.cHeader_BotonesSc
+			{
+				display: inline-block;
+				background-color: #D4F5FA;
+				color: #30646B;
+				font-family: Arial;
+				font-size: 15px;
+				padding: 10px 20px 7px;
+				cursor: pointer;
+				border-radius: 4px 4px 0px 0px;
+			} .cHeader_BotonesSc:hover, .cHeader_BotonesSc[selected]
+			{
+				background-color: #FFF;
+			}
+			
